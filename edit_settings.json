@@ -1,0 +1,23 @@
+
+{  
+   "active":[{"username" : "snapwiz","path" : "/home/{{userName}}/project/application/solution.ipynb", "focused" : true}],
+   "projects":[  
+      {  
+         "name":"Data_Science",
+         "path":"\/home\/{{userName}}\/project\/application",
+         "container_id":"testContainerId",
+         "collaboration":false,
+         "source":"{{xtermUrl}}",
+         "build":false,
+         "browser":true,
+	 "browser_button_name":"OPEN JUPYTER NOTEBOOK",
+         "browser_url":"{{browserUrl}}/notebooks/solution.ipynb",
+	 "browser_in_new_tab" : true,
+         "readOnlyFolders":[],
+         "hiddenFolders":["/home/{{userName}}/project/application/evaluation",
+            "/home/{{userName}}/project/application/.ipynb_checkpoints"],
+         "build_command":"cd /home/{{userName}}/project/application;python3 starter.py"
+      }
+   ]
+}
+
